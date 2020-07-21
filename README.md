@@ -16,14 +16,17 @@ API is connected with MySQL DB, it contains authentication of API endpoint with 
 ### common
 common error codes and ivalidator 
 
-### models
+### app/models
 authentic - user login and auth
 site - websites `(userId, website, username, password)`
 
-### schema
+### app/schema
 validation schemas
 
-### routes 
+### app/services 
+services for authentic and site
+
+### app/routes 
 routes for authentic and site
 
 
