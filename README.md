@@ -47,7 +47,7 @@ Response Data: {
 ```
 
 
-![Alt text](/screenshots/ss1.png?raw=true)
+![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss1.png)
 
 
 ### 2. User account login
@@ -67,7 +67,7 @@ Response Data: {
 ```
 
 
-![Alt text](/screenshots/ss2.png?raw=true)
+![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss2.png)
 
 
 ### 3. List of saved usernames and passwords for different websites
@@ -81,7 +81,7 @@ Response Data: [List of stored website username & passwords]
 ```
 
 
-![Alt text](/screenshots/ss3.png?raw=true)
+![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss3.png)
 
 
 ### 4. Save new username and password for a website
@@ -101,14 +101,14 @@ Response Data: {
 ```
 
 
-![Alt text](/screenshots/ss4.png?raw=true)
+![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss4.png)
 
 
 
 ### MySQL sites table
 
 
-![Alt text](/screenshots/mysqlEx.png?raw=true)
+![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/mysqlEx.png)
 
 
 
