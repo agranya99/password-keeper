@@ -2,9 +2,92 @@
 
 REST API implementation of provided API doc with validation of schema (using ajv), common error handler, authentication (using JWT - written for demonstration purpose under /secureAPI route. Not used since API doc doesn't state) and bcrypt module for encrypting password using salt and hash.
 
-Followed Model, Controller, Service, Route architecture.
+Followed Model, Service, Route architecture.
 
 API is connected with MySQL DB, it contains authentication of API endpoint with JWT Token and Validation of request and response of each route. It has bcrypt module encrypts passwords. It contains Artillery for load testing.
+
+# Structure
+
+### config
+/api-config - ensures all dependencies met and sets up environment
+/database - MySQL server connection info
+...
+
+### common
+common error codes and ivalidator 
+
+### models
+authentic - user login and auth
+site - websites `(userId, website, username, password)`
+
+### schema
+validation schemas
+
+### routes 
+routes for authentic and site
+
+
+# API Calls 
+
+### The following calls are implemented as per API doc and are fully working (with password encryption)
+
+### 1. User Account Registration
+
+```
+[POST] /app/user
+
+Request Data: {
+'username': str,
+'password': str
+}
+
+Response Data: {
+'status': 'account created'
+}
+```
+
+### 2. User account login
+
+```
+[POST] /app/user/auth
+
+Request Data: {
+'username': str,
+'password': str
+}
+
+Response Data: {
+'status': 'success',
+'userId': int
+}
+```
+
+### 3. List of saved usernames and passwords for different websites
+
+```
+[GET] /app/sites/list/?user={userId}
+
+Request Data: None
+
+Response Data: [List of stored website username & passwords]
+```
+
+### 4. Save new username and password for a website
+
+```
+[POST] /app/sites?user={userId}
+
+Request Data: {
+'website': str,
+'username': str,
+'password': str
+}
+
+Response Data: {
+'status': 'success'
+}
+```
+
 
 # Used Packages 
 
