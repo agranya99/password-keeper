@@ -1,0 +1,21 @@
+{
+  "name": "password-keeper",
+  "version": "1.0.0",
+  "description": "password keeper REST API using Node.Js Express and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agranya P. Singh <agranyasingh5@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "artillery": "^1.6.1",
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.0"
+  }
+}
