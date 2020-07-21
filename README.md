@@ -46,6 +46,10 @@ Response Data: {
 }
 ```
 
+```
+![Alt text](/screenshots/ss1.png?raw=true)
+```
+
 ### 2. User account login
 
 ```
@@ -62,6 +66,10 @@ Response Data: {
 }
 ```
 
+```
+![Alt text](/screenshots/ss2.png?raw=true)
+```
+
 ### 3. List of saved usernames and passwords for different websites
 
 ```
@@ -70,6 +78,10 @@ Response Data: {
 Request Data: None
 
 Response Data: [List of stored website username & passwords]
+```
+
+```
+![Alt text](/screenshots/ss3.png?raw=true)
 ```
 
 ### 4. Save new username and password for a website
@@ -86,6 +98,17 @@ Request Data: {
 Response Data: {
 'status': 'success'
 }
+```
+
+```
+![Alt text](/screenshots/ss4.png?raw=true)
+```
+
+
+### MySQL sites table
+
+```
+![Alt text](/screenshots/mysqlEx.png?raw=true)
 ```
 
 
