@@ -47,7 +47,9 @@ Response Data: {
 ```
 
 
-![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss1.PNG)
+
+![Img](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss1.PNG)
+
 
 
 ### 2. User account login
@@ -66,10 +68,12 @@ Response Data: {
 }
 ```
 
+ 
 
-![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss2.PNG)
+![Img](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss2.PNG)
 
 
+ 
 ### 3. List of saved usernames and passwords for different websites
 
 ```
@@ -80,10 +84,12 @@ Request Data: None
 Response Data: [List of stored website username & passwords]
 ```
 
+ 
 
-![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss3.PNG)
+![Img](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss3.PNG)
 
 
+ 
 ### 4. Save new username and password for a website
 
 ```
@@ -101,16 +107,18 @@ Response Data: {
 ```
 
 
-![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss4.PNG)
+ 
+![Img](https://github.com/agranya99/password-keeper/tree/master/screenshots/ss4.PNG)
 
-
+ 
 
 ### MySQL sites table
 
 
-![Alt text](https://github.com/agranya99/password-keeper/tree/master/screenshots/mysqlEx.PNG)
+ 
+![Img](https://github.com/agranya99/password-keeper/tree/master/screenshots/mysqlEx.PNG)
 
-
+ 
 
 # Used Packages 
 
